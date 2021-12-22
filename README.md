@@ -1,5 +1,6 @@
 # Terraform-AWS-VPC
-Provisoned resources in the us-west-2 Region 
+
+Provisoned AWS resources in the us-west-2 (Oregon) Region 
 
 Multi-AZ deployment - for high availability/redundancy purposes
 
