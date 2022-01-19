@@ -1,13 +1,16 @@
-# Terraform-AWS-VPC
+# VPC
 
 Provisoned AWS resources in the us-west-2 (Oregon) Region 
 
-Multi-AZ deployment - for high availability/redundancy purposes
+I used a terraforms vpc module to provision common configuration functionalities
 
-Private and public subents in VPC 
+I used a multi-AZ deployment and deployed services across separate availability zones to ensure high availability and redundancy
 
-Provisioned NAT gateway in public subnet
+I used private and public subents in the VPC
 
-Security group - inbound rules - port 22 open for SSH traffic 
+I used private/public subnets, NAT gateways and a security group
 
-Scalable resource - ASG for the instances 
+I hosted my instances inside a autoscaling group to ensure the scalability of my environment  
+
+
+
